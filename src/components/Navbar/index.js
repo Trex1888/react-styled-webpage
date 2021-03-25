@@ -16,7 +16,7 @@ function Navbar({ toggle }) {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">dolla</NavLogo>
+          <NavLogo>Midwest Bank</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
