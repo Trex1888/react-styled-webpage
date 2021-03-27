@@ -1,20 +1,16 @@
 import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages";
+import SigninPage from "./pages/signin";
 
 function App() {
   return (
     <Router>
-      <Home />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/signin" component={SigninPage} />
+      </Switch>
     </Router>
-    // <>
-    //   <Router>
-    //     <Navbar />
-    //     <Switch>
-    //       <Route exact="/" component={Home} />
-    //     </Switch>
-    //   </Router>
-    // </Router>
   );
 }
 

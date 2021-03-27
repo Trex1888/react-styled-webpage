@@ -17,16 +17,16 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
+          <SidebarLink to="services" onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="check" onClick={toggle}>
+            Checking
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
-            Services
+          <SidebarLink to="save" onClick={toggle}>
+            Savings
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
+          <SidebarLink to="sign" onClick={toggle}>
             Sign Up
           </SidebarLink>
         </SidebarMenu>

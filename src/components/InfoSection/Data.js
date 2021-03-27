@@ -1,8 +1,8 @@
 export const homeObjOne = {
-  id: "about",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  id: "check",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Checking Account",
   headLine: "Unlimited Checking Account Transactions with zero fees",
   description:
@@ -11,16 +11,34 @@ export const homeObjOne = {
   imgStart: false,
   img: require("../../images/main1.svg").default,
   alt: "checking",
-  dark: true,
+  dark: false,
+  primary: true,
+  darkText: true,
+};
+
+export const homeObjTwo = {
+  id: "save",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Savings acccount",
+  headLine: "Grow your savings. Find an account just right for you",
+  description:
+    "Eagle Bank is committed to offering great interest rates. Ask about our generous rates and yeilds when you open a new account with us.",
+  buttonLabel: "Start Now",
+  imgStart: false,
+  img: require("../../images/main3.svg").default,
+  alt: "savings",
+  dark: false,
   primary: true,
   darkText: false,
 };
 
-export const homeObjTwo = {
-  id: "discover",
+export const homeObjThree = {
+  id: "sign",
   lightBg: true,
   lightText: false,
-  lightTextDesc: true,
+  lightTextDesc: false,
   topLine: "Secure Banking",
   headLine: "Safe and secure Mobile and Online banking",
   description:
@@ -30,24 +48,6 @@ export const homeObjTwo = {
   img: require("../../images/main2.svg").default,
   alt: "mobile",
   dark: false,
-  primary: false,
-  darkText: true,
-};
-
-export const homeObjThree = {
-  id: "signup",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Savings acccount",
-  headLine: "Find out which savings account is right for you.",
-  description:
-    "Midwest Bank is committed to offering great interest rates. Ask about our different rates and rewards when you open a new account with us.",
-  buttonLabel: "Start Now",
-  imgStart: false,
-  img: require("../../images/main3.svg").default,
-  alt: "savings",
-  dark: true,
   primary: true,
-  darkText: false,
+  darkText: true,
 };
